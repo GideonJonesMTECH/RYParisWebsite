@@ -1,0 +1,37 @@
+.flex-container {
+  display: flex;
+}
+
+.heroImg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.heroText {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+}
+
+.navbar {
+  background-color: #f1a536;
+  text-align: left;
+}
+
+.links {
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.grayBkgnd {
+  background-color: #dadfea;
+}

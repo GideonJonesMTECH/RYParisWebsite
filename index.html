@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <head>
   <title>RY Paris Home</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <meta name="author" content="Gideon Jones" />
+  <meta name="keywords" content="Paris, Food, Burgers, DIY, Cooking, Home" />
+  <meta name="description" content="The (un)Official RY Paris Website!" />
 </head>
 <body>
-  <div class="header">
-    <!-- RY Paris image, and links to "Popular Recipes", "What's New", "Categories", "Meal Ideas" Header Color:#f1a536-->
+  <div class="navbar" class="flex-container">
+    <img src="Images/ryparis-logo.png" alt="Logo" width="200px" class="logo" />
+    <div class="Links">
+      <a href="recipe.html"> Popular Recipes</a>
+      <a href="index.html"> What's New </a>
+      <a href="index.html"> Categories </a>
+      <a href="recipe.html"> Meal Ideas </a>
+    </div>
   </div>
 
-  <!-- Hero Image, with black text highlighted white "START THE WEEK OFF RIGHT"  -->
+  <div class="heroImg">
+    <img
+      src="Images/hero-image.jpg"
+      alt="Main Img"
+      width="100%"
+      height="500px"
+    />
+    <div class="heroText">START THE WEEK OFF RIGHT</div>
+  </div>
 
   <h2>Everyday Categories</h2>
   <p>
@@ -17,22 +35,82 @@
     farmers' markets.
   </p>
 
-  <!-- 3 images side by side, with captions underneath-->
-  <!-- breakfast-ideas => Breakfast Most Important Meal-->
-  <!-- vegetarian-ideas => Vegetarian Lunch Ideas-->
-  <!-- cold-weather-dinners => Cold Weather Weeknight Dinners-->
+  <div class="flex-container">
+    <figure>
+      <img
+        src="Images/BreakfastIdeas1.png"
+        alt="breakfast-ideas"
+        width="150 px"
+        height="150 px"
+      />
+      <figcaption>Breakfast: Most Important Meal</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="Images/vegetarian-ideas.jpg"
+        alt="vegetarian-ideas"
+        width="150 px"
+        height="150 px"
+      />
+      <figcaption>Vegetarian Lunch Ideas</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="Images/ColdWeatherDinners1.png"
+        alt="breakfast-ideas"
+        width="150 px"
+        height="150 px"
+      />
+      <figcaption>Cold Weather Weeknight Dinners</figcaption>
+    </figure>
+  </div>
 
-  <h2>Healthy Recipes of the Week</h2>
-  <p>
-    This week's top award winners to critically-acclaimed recipe gems, check out
-    these original revipes from home cooks and professional chefs around the
-    country.
-  </p>
-  <!-- 4 images side by side, with captions underneath-->
-  <!-- fajita-peppers => Fajita-Stuffed Peppers-->
-  <!-- muffins => Ree's Breakfast Muffins-->
-  <!-- eggplant-parmesan => Eggplant Parmesan-->
-  <!-- teriyaki-chicken => Teriyaki Chicken Thighs-->
+  <div class="grayBkgnd">
+    <h2>Healthy Recipes of the Week</h2>
+    <p>
+      This week's top award winners to critically-acclaimed recipe gems, check
+      out these original revipes from home cooks and professional chefs around
+      the country.
+    </p>
+    <div class="flex-container">
+      <figure>
+        <img
+          src="Images/fajitaPeppers1.png"
+          alt="fajita-peppers"
+          height="100 px"
+          width="100 px"
+        />
+        <figcaption>Fajita-Stuffed Peppers</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="Images/SmallMuffins.png"
+          alt="muffins"
+          height="100 px"
+          width="100 px"
+        />
+        <figcaption>Ree's Breakfast Muffins</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="Images/eggplant-parmesan.jpg"
+          alt="eggplant-parmesan"
+          height="100 px"
+          width="100 px"
+        />
+        <figcaption>Eggplant Parmesan</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="Images/TeriyakiChicken1.png"
+          alt="teriyaki-chicken"
+          height="100 px"
+          width="100 px"
+        />
+        <figcaption>Teriyaki Chicken Thighs</figcaption>
+      </figure>
+    </div>
+  </div>
 
   <h2>Where to Eat</h2>
   <p>
@@ -49,10 +127,36 @@
     people's lists of cravings, we're continually on the lookout for something
     new to fill our bellies, our passports, and our feeds.
   </p>
-  <!-- 3 images side by side, with captions underneath-->
-  <!-- burger => Best Sandwiches in America-->
-  <!-- pizza => 50 States of Pizza Sices-->
-  <!-- city-guides => City Guides-->
+
+  <div class="flex-container">
+    <figure>
+      <img
+        src="Images/burger.jpg"
+        alt="BurgerImg"
+        height="150 px"
+        width="150 px"
+      />
+      <figcaption>Best Sandwiches in America</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="Images/pizza.jpeg"
+        alt="PizzaImg"
+        height="150 px"
+        width="150 px"
+      />
+      <figcaption>50 States of Pizza Sices</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="Images/city-guidesSmall.png"
+        alt="CrabImg"
+        height="150 px"
+        width="150 px"
+      />
+      <figcaption>City Guides</figcaption>
+    </figure>
+  </div>
 
   <div class="footer">
     <!--Left: Copywrite 2020 RY PARIS-->
