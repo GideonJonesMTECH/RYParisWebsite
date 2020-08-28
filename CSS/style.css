@@ -1,37 +1,163 @@
 .flex-container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .heroImg {
-  position: relative;
+  /* position: relative; */
   text-align: center;
   color: white;
+  height: 500px;
+  overflow: hidden;
 }
+
 .heroText {
   position: absolute;
-  bottom: 10%;
+  top: 70%;
   right: 30%;
   text-align: center;
   font-size: 30px;
   color: black;
   background-color: white;
+  padding: 10px;
 }
 
 .navbar {
   background-color: #f1a536;
-  text-align: left;
-}
-
-.links {
-  text-align: right;
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-size: 110%;
 }
 
 .logo {
   display: inline-block;
+  width: 200px;
+  padding-left: 30px;
 }
 
 .grayBkgnd {
   background-color: #dadfea;
+}
+
+figure {
+  background-color: white;
+  text-align: center;
+}
+
+.Copywrite {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Links {
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.Links a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body {
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  font-size: 125%;
+  padding: 3% 5% 3% 5%;
+}
+
+h2 {
+  font-size: 150%;
+  padding: 3%;
+  padding-bottom: 0%;
+}
+
+.Instructions {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: top;
+
+  margin: 30px 50px;
+}
+
+.IngredientsList {
+  width: 120%;
+}
+
+.LargeImg {
+  overflow: hidden;
+  width: 233px;
+  height: 200px;
+}
+
+.SmallImg {
+  overflow: hidden;
+  width: 175px;
+  height: 150px;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+ol > li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.IngredientsList > ul > li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.SpecsList {
+  column-count: 3;
+  column-gap: 10px;
+  column-width: 10px;
+}
+
+#TimeHeader {
+  padding: 20px;
+}
+
+#Quote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 125%;
+}
+
+.Title {
+  text-align: center;
+}
+
+#RedStar {
+  color: maroon;
+}
+
+#Save {
+  background-color: maroon;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 150%;
+  outline: none;
+}
+
+#Print {
+  background-color: transparent;
+  color: gray;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 150%;
 }
